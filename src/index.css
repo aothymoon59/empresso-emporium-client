@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.rancho-font {
+  font-family: 'Rancho', cursive;
+}
+
+.raleway-font {
+  font-family: 'Raleway', sans-serif;
+}
+
+.my-btn {
+  @apply py-[9px] px-[22px] bg-[#E3B577] border border-[#E3B577] text-[#242222] text-2xl rancho-font transition-all duration-200 ease-in-out
+}
+
+.my-btn-outline {
+  @apply py-[9px] px-[22px] rounded-[26px] bg-transparent border border-[#331A15] text-[#331A15] text-2xl rancho-font transition-all duration-200 ease-in-out
+}
+
+.my-form-btn {
+  @apply w-full p-3 text-2xl rounded-md bg-[#D2B48C] text-[#331A15] rancho-font transition-all duration-200 ease-in-out
+}
+
+.text-shadow {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.sub-title {
+  @apply text-[#331A15] rancho-font text-[45px]
+}
