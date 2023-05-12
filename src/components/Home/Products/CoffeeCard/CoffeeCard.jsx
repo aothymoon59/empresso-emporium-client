@@ -34,11 +34,11 @@ const CoffeeCard = ({ coffee, coffees, setCoffees }) => {
 
   return (
     <>
-      <div className="card card-side bg-base-100 shadow-xl">
-        <div className="w-[35%] h-60 p-5">
-          <img src={photo} className="w-full h-full" alt={name} />
+      <div className="card lg:card-side bg-base-100 shadow-xl">
+        <div className="lg:w-[35%] mx-auto h-60 p-5">
+          <img src={photo} className="w-[150px] h-full" alt={name} />
         </div>
-        <div className="raleway-font mr-12 ml-8 flex justify-between w-full items-center">
+        <div className="raleway-font p-3 md:pr-12 md:pl-8 flex justify-between w-full items-center">
           <div>
             <p className="text-xl mb-4">
               <span className="font-semibold">Name: </span>
