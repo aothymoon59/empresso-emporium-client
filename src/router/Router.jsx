@@ -23,13 +23,17 @@ const router = createBrowserRouter([
         path: "/updateCoffee/:id",
         element: <UpdateCoffee></UpdateCoffee>,
         loader: ({ params }) =>
-          fetch(`http://localhost:5000/coffees/${params.id}`),
+          fetch(
+            `https://coffee-server-aothymoon59.vercel.app/coffees/${params.id}`
+          ),
       },
       {
         path: "/viewCoffee/:id",
         element: <ViewCoffee></ViewCoffee>,
         loader: ({ params }) =>
-          fetch(`http://localhost:5000/coffees/${params.id}`),
+          fetch(
+            `https://coffee-server-aothymoon59.vercel.app/coffees/${params.id}`
+          ),
       },
     ],
   },
